@@ -31167,6 +31167,19 @@ video {
           animation: bounce 1s infinite;
 }
 
+@media screen and (max-width: 767px){
+  #menu:checked ~ #nav #toggle{
+    height: 230px;
+    transition: all 400ms linear;
+  }
+
+  #toggle{
+    height:0;
+    overflow-y: hidden;
+    transition: height 400ms linear;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
