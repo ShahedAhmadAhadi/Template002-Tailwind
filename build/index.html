@@ -1,71 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template002-Tailwind</title>
-    <link rel="stylesheet" href="style.css">
-    <link
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Template002-Tailwind</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
         />
-</head>
-<body>
-    <div class="grid grid-cols-12">
-        <header
-            class="fixed shadow z-50 bg-white col-start-1 col-end-13 grid grid-cols-12 w-full sh"
-        >
-            <div class="grid grid-cols-12 p-1 col-start-1 col-end-13 text-xl md:text-lg md:flex lg:col-start-3 lg:col-end-11 md:col-start-2 md:col-end-12">
+    </head>
+    <body>
+        <div class="grid grid-cols-12">
+            <header
+                class="fixed shadow z-50 bg-white col-start-1 col-end-13 grid grid-cols-12 w-full sh"
+            >
+                <div
+                    class="grid grid-cols-12 p-1 col-start-1 col-end-13 text-xl md:text-lg md:flex lg:col-start-3 lg:col-end-11 md:col-start-2 md:col-end-12"
+                >
                     <a
-                    href="#"
-                    class="col-start-1 col-end-8 justify-self-start md:flex-grow md:order-1 md:py-3"
-                >
-                    <i class="bi bi-grid-3x3-gap-fill text-yellow-400"></i>
-                    <span class="text-xl align-middle">
-                        <span class="font-bold">San</span>Francisco
-                    </span>
-                </a>
-                <nav
-                    id="text"
-                    class="col-start-9 col-end-12 md:col-start-9 md:col-end-11 md:justify-self-center justify-self-end mr-2 md:order-4 md:p-3"
-                >
-                    <a href="#" class="p-1 bi bi-cart3 relative">
-                        <span
-                            class="absolute bg-green-400 rounded-full inset-x-3 text-xs text-white text-center w-4 h-4"
-                            >3</span
-                        >
-                    </a>
-                    <a href="#" class="p-1 bi bi-search"></a>
-                </nav>
-                <input type="checkbox" name="" id="menu" class="hidden" />
-                <label
-                    for="menu"
-                    class="col-start-12 col-end-13 p-1 justify-self-end md:hidden"
-                    id="label"
-                >
-                    <div id="first" class="w-6 h-1 bg-black m-1 rounded"></div>
-                    <div id="second" class="w-6 h-1 bg-black m-1 rounded"></div>
-                    <div id="third" class="w-6 h-1 bg-black m-1 rounded"></div>
-                </label>
-                <nav
-                    id="nav"
-                    class="col-start-1 col-end-13 text-center z-50 w-full bg-white md:p-3 md:w-auto md:order-1 md:mr-2"
-                >
-                    <ul
-                        class="divide-y-2 flex flex-col justify-center divide-gray-200 divide-opacity-50 md:flex md:flex-row md:divide-y-0"
-                        id="toggle"
+                        href="#"
+                        class="col-start-1 col-end-8 justify-self-start md:flex-grow md:order-1 md:py-3"
                     >
-                        <li class="p-1">Home</li>
-                        <li class="p-1">About</li>
-                        <li class="p-1">Services</li>
-                        <li class="p-1">Work</li>
-                        <li class="p-1">Pricing</li>
-                        <li class="p-1">Contact</li>
-                    </ul>
-                </nav>
-            </div>
-            
-        </header>
-    </div>
-</body>
+                        <i class="bi bi-grid-3x3-gap-fill text-yellow-400"></i>
+                        <span class="text-xl align-middle">
+                            <span class="font-bold">San</span>Francisco
+                        </span>
+                    </a>
+                    <nav
+                        id="text"
+                        class="col-start-9 col-end-12 md:col-start-9 md:col-end-11 md:justify-self-center justify-self-end mr-2 md:order-4 md:p-3"
+                    >
+                        <a href="#" class="p-1 bi bi-cart3 relative">
+                            <span
+                                class="absolute bg-green-400 rounded-full inset-x-3 text-xs text-white text-center w-4 h-4"
+                                >3</span
+                            >
+                        </a>
+                        <a href="#" class="p-1 bi bi-search"></a>
+                    </nav>
+                    <input type="checkbox" name="" id="menu" class="hidden" />
+                    <label
+                        for="menu"
+                        class="col-start-12 col-end-13 p-1 justify-self-end md:hidden"
+                        id="label"
+                    >
+                        <div
+                            id="first"
+                            class="w-6 h-1 bg-black m-1 rounded"
+                        ></div>
+                        <div
+                            id="second"
+                            class="w-6 h-1 bg-black m-1 rounded"
+                        ></div>
+                        <div
+                            id="third"
+                            class="w-6 h-1 bg-black m-1 rounded"
+                        ></div>
+                    </label>
+                    <nav
+                        id="nav"
+                        class="col-start-1 col-end-13 text-center z-50 w-full bg-white md:p-3 md:w-auto md:order-1 md:mr-2"
+                    >
+                        <ul
+                            class="divide-y-2 flex flex-col justify-center divide-gray-200 divide-opacity-50 md:flex md:flex-row md:divide-y-0"
+                            id="toggle"
+                        >
+                            <li class="p-1">Home</li>
+                            <li class="p-1">About</li>
+                            <li class="p-1">Services</li>
+                            <li class="p-1">Work</li>
+                            <li class="p-1">Pricing</li>
+                            <li class="p-1">Contact</li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
+    </body>
 </html>

@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@media screen and (max-width: 767px){
-    #menu:checked ~ #nav #toggle{
+@media screen and (max-width: 767px) {
+    #menu:checked ~ #nav #toggle {
         height: 230px;
-        transition: all 400ms linear;}
-    #toggle{
-      height:0;
-      overflow-y: hidden;
-      transition: height 400ms linear;
+        transition: all 400ms linear;
     }
-  
-  }
+    #toggle {
+        height: 0;
+        overflow-y: hidden;
+        transition: height 400ms linear;
+    }
+}
