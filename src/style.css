@@ -49,3 +49,6 @@
       grid-column: 1/13;
     }
   }
+  #bor{
+    border-bottom: 0.5px solid #aaa;
+  }

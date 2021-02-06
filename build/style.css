@@ -31224,6 +31224,10 @@ video {
   }
 }
 
+#bor{
+  border-bottom: 0.5px solid #aaa;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
