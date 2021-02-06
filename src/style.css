@@ -13,3 +13,30 @@
         transition: height 400ms linear;
     }
 }
+#circle{
+    height: 70px;
+  }
+  #half-c{
+    height: 100px;
+}
+#green{
+    transition: all 500ms ease;
+  }
+  
+  #yellow{
+    transition: all 500ms ease-in-out;
+  }
+  @media screen and (max-width: 430px){
+    #green{
+      top:17rem;
+      left:1rem;
+      transition: all 500ms ease;
+    }
+    #yellow{
+      left:10rem;
+      transition: all 500ms ease-in-out;
+    }
+    #qwe{
+      padding: 1rem;
+    }
+  }
