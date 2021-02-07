@@ -31228,6 +31228,10 @@ video {
   border-bottom: 0.5px solid #aaa;
 }
 
+#btn{
+  background-color: #5BD4EF;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
